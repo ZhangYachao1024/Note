@@ -125,13 +125,3 @@
 > `(min-width:num1) and (max-width:num2)` :大于等于num1，同时满足小于等于num2；写完 `max-width`则开始写其中间值。num1必须在num0的基础上+1px，以免覆盖之前width<=num0的样式，num2 则不要求必须在 num3 的基础上 -1px (因为后面定义的 `width >= num3` 就算 width 的 num 相等也会根据先后原则覆盖这个样式) 。z
 
 > `min-wdith: num3` 大于等于 分辨率从小写到大 如果同一选择器样式在更大分辨率下没有重写则会沿用之前 `@media` 定义的样式 其次再是 CSS中定义的基本样式
-
-
-
-
-
-
-
-
-
-

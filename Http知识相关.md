@@ -38,7 +38,7 @@ HTTP协议永远都是客户端发起请求，服务器回送响应。
 
 http 请求的一个例子：
 
-![](imgs/HTTP_Request.png)
+![](IMGS/HTTP_Request.png)
 
 请求由以下元素组成：
 
@@ -52,7 +52,7 @@ http 请求的一个例子：
 
 HTTP响应的一个例子：
 
-![](imgs/HTTP_Response.png)
+![](IMGS/HTTP_Response.png)
 
 响应报文包含了下面的元素：
 

@@ -2,7 +2,7 @@
 
   采用 Flex 布局的元素，称为 **Flex 父容器**（flex container）。它的所有子元素称为 **Flex 元素**（flex item)。注意：设为 Flex 布局以后，子元素的 `float`、`clear` 和 `vertical-align` 属性将失效。
 
-![](imgs/flex_concept.png)
+![](IMGS/flex_concept.png)
 
    **Flex 父容器默认存在两根轴**：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做 `main start`，结束位置叫做 `main end`；交叉轴的开始位置叫做 `cross start`，结束位置叫做 `cross end`。
 
