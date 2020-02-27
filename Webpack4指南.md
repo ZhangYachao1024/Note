@@ -1,9 +1,4 @@
-> 参考文献
->
-> 1. <https://webpack.github.io/>
-> 2. <https://webpack.docschina.org/>
-
-# # 概
+# # 概述
 
 Webpack 是一个前端资源打包工具。它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源。
 
