@@ -11,8 +11,10 @@ xhr.open("GET", url, true);
 // 3. 发送请求
 xhr.send(null);
 // 4. 监听请求
-xhr.onload = function() {
-    console.log(this.response);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status==200) {
+        dosomething();
+    }
 }
 ```
 
