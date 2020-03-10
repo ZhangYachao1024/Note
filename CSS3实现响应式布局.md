@@ -8,7 +8,7 @@
 </head>
 ```
 
-  `<meta viewport>` 这个属性是在移动设备上设置原始大小显示和是否缩放的声明，其主要参数设置如下所示：
+`<meta viewport>` 这个属性是在移动设备上设置原始大小显示和是否缩放的声明，其主要参数设置如下所示：
 
 - width-viewport：viewport 的宽度
 - height-viewport：viewport 的高度
