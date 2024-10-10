@@ -14,20 +14,30 @@ button {
 }
 ```
 
-## 使用`grid/flex`水平垂直居中任何元素
+## 水平垂直居中任何元素
 
 ```css
+/* grid + place-items */
 div {
     diplay: grid;
     place-items: center;
 }
 
-
+/* flex + margin */
 .parent {
     display: flex;
 }
 .child {
     margin: auto;
+}
+
+/* 绝对定位 + insert */
+.parent {
+    display: relative;
+}
+.child {
+    position: absolute;
+    insert: 0;
 }
 ```
 
@@ -36,8 +46,6 @@ div {
 ```css
 li::marker { color: #f00; }
 ```
-
-
 
 ## 使用 SVG 图标
 
@@ -52,5 +60,3 @@ li::marker { color: #f00; }
   display: none;
 }
 ```
-
-
